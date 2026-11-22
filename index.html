@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punith V A | MERN Stack Developer & DevOps Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Punith V A, a Computer Science student from Bengaluru building modern MERN stack web applications, backend systems and AWS/Docker cloud deployments." />
+  <meta name="author" content="Punith V A" />
+  <meta name="theme-color" content="#0b1020" />
+
+  <!-- Open Graph (for LinkedIn / social previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Punith V A | MERN Stack Developer & DevOps Engineer" />
+  <meta property="og:description" content="Building modern web experiences and scalable cloud solutions." />
+  <meta property="og:image" content="images/profile.png" />
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="apple-touch-icon" href="images/favicon.svg" />
+  <meta name="msapplication-TileColor" content="#facc15" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="brand" aria-label="Punith V A, home">
+        <span class="brand-mark">P</span><span class="brand-name">Punith V A</span>
+      </a>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme">
+          <i class="fa-solid fa-sun" aria-hidden="true"></i>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HOME / HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-hello">Hi, I'm Punith V A</p>
+          <h1 class="hero-title">Building Modern Web Experiences &amp; Scalable Cloud Solutions</h1>
+          <p class="hero-typing" aria-live="off">
+            I'm a <span class="typed-text" id="typed-text">MERN Stack Developer</span><span class="cursor" aria-hidden="true"></span>
+          </p>
+          <ul class="role-chips" aria-label="Roles">
+            <li>MERN Stack Developer</li>
+            <li>DevOps Engineer</li>
+            <li>Full Stack Developer</li>
+          </ul>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-code" aria-hidden="true"></i> Explore My Projects</a>
+            <a href="assets/Punith_VA_Resume.pdf" class="btn btn-ghost" download="Punith_VA_Resume.pdf" target="_blank" rel="noopener noreferrer" id="resume-btn"><i class="fa-solid fa-download" aria-hidden="true"></i> Download My Resume</a>
+            <a href="mailto:punith65@gmail.com" class="btn btn-ghost" aria-label="Email Punith V A at punith65@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="availability-badge"><span class="status-dot" aria-hidden="true"></span> Open to internship and entry-level roles</div>
+            <div class="stats-grid" aria-label="Portfolio highlights">
+              <article class="stat-card"><strong>5+</strong><span>Projects</span></article>
+              <article class="stat-card"><strong>3</strong><span>Core stacks</span></article>
+              <article class="stat-card"><strong>100%</strong><span>Growth mindset</span></article>
+            </div>
+          </div>
+
+          <ul class="socials" aria-label="Social links">
+            <li><a class="social-link-linkedin" href="https://www.linkedin.com/in/punith-v-a-51555b432/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
+            <li><a class="social-link-github" href="https://github.com/punith1800" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+            <li><a class="social-link-mail" href="mailto:punith65@gmail.com" aria-label="Email Punith V A at punith65@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <picture>
+              <source srcset="images/profile.webp" type="image/webp" />
+              <img src="images/profile.png" alt="Portrait of Punith V A in a black suit" width="900" height="868" fetchpriority="high" />
+            </picture>
+          </div>
+          <div class="photo-badge"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Bengaluru, India</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>About Me</h2>
+          <p>A computer science student focused on building things that work end to end.</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <picture>
+              <source srcset="images/profile.webp" type="image/webp" />
+              <img src="images/profile.png" alt="Punith V A, Computer Science student" width="900" height="868" loading="lazy" />
+            </picture>
+          </div>
+
+          <div class="about-body reveal">
+            <p class="lead">I’m a Computer Science student who enjoys turning ideas into usable products — from database design and API logic to polished frontend experiences and cloud deployment.</p>
+            <p>I build full stack solutions with a strong focus on real-world usability, clean structure, and deployment readiness. I’m currently exploring roles in MERN stack, full stack and DevOps engineering, where I can keep learning while contributing to meaningful projects.</p>
+
+            <dl class="about-facts">
+              <div><dt>Education</dt><dd>BCA, Bengaluru North University</dd></div>
+              <div><dt>Location</dt><dd>Bengaluru, Karnataka, India</dd></div>
+              <div><dt>Experience</dt><dd>Fresher with internship experience</dd></div>
+              <div><dt>Career goal</dt><dd>Build scalable products with teams that value learning, ownership and clean execution.</dd></div>
+            </dl>
+
+            <div class="tabs" data-tabs>
+              <div class="tab-list" role="tablist" aria-label="About details">
+                <button class="tab active" role="tab" id="tab-skills" aria-selected="true" aria-controls="panel-skills" type="button">Skills</button>
+                <button class="tab" role="tab" id="tab-experience" aria-selected="false" aria-controls="panel-experience" tabindex="-1" type="button">Experience</button>
+                <button class="tab" role="tab" id="tab-education" aria-selected="false" aria-controls="panel-education" tabindex="-1" type="button">Education</button>
+              </div>
+
+              <div class="tab-panel active" role="tabpanel" id="panel-skills" aria-labelledby="tab-skills">
+                <ul class="pill-list">
+                  <li>React.js</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li>
+                  <li>Python</li><li>Flask</li><li>AWS</li><li>Docker</li><li>Linux</li><li>Git &amp; GitHub</li>
+                </ul>
+              </div>
+
+              <div class="tab-panel" role="tabpanel" id="panel-experience" aria-labelledby="tab-experience" hidden>
+                <div class="mini-card">
+                  <h3>MERN Stack Internship</h3>
+                  <p class="muted">BLU Net IT Services &middot; 3 months</p>
+                  <p>Hands-on work building full stack features with MongoDB, Express.js, React.js and Node.js.</p>
+                </div>
+              </div>
+
+              <div class="tab-panel" role="tabpanel" id="panel-education" aria-labelledby="tab-education" hidden>
+                <div class="mini-card">
+                  <h3>BCA</h3>
+                  <p class="muted">Bengaluru North University &middot; 3 years</p>
+                  <p>Studying core computer science with a personal focus on web development, backend systems and cloud deployment.</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="interests"><strong>Technical interests:</strong> full stack web apps, REST APIs, containerization, cloud deployment, automation and product-focused engineering.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>My Skills</h2>
+          <p>The technologies I work with, grouped by what I use them for.</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <h3><i class="fa-solid fa-display" aria-hidden="true"></i> Frontend Development</h3>
+            <ul class="tech-list">
+              <li><i class="devicon-html5-plain colored" aria-hidden="true"></i><span>HTML5</span></li>
+              <li><i class="devicon-css3-plain colored" aria-hidden="true"></i><span>CSS3</span></li>
+              <li><i class="devicon-javascript-plain colored" aria-hidden="true"></i><span>JavaScript</span></li>
+              <li><i class="devicon-react-original colored" aria-hidden="true"></i><span>React.js</span></li>
+              <li><i class="devicon-bootstrap-plain colored" aria-hidden="true"></i><span>Bootstrap</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3><i class="fa-solid fa-server" aria-hidden="true"></i> Backend Development</h3>
+            <ul class="tech-list">
+              <li><i class="devicon-nodejs-plain colored" aria-hidden="true"></i><span>Node.js</span></li>
+              <li><i class="devicon-express-original" aria-hidden="true"></i><span>Express.js</span></li>
+              <li><i class="devicon-django-plain" aria-hidden="true"></i><span>Django</span></li>
+              <li><i class="devicon-flask-original" aria-hidden="true"></i><span>Flask</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Database Management</h3>
+            <ul class="tech-list">
+              <li><i class="devicon-mongodb-plain colored" aria-hidden="true"></i><span>MongoDB</span></li>
+              <li><i class="devicon-mysql-plain colored" aria-hidden="true"></i><span>MySQL</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3><i class="fa-solid fa-cloud" aria-hidden="true"></i> Cloud Computing</h3>
+            <ul class="tech-list">
+              <li><i class="devicon-amazonwebservices-plain-wordmark colored" aria-hidden="true"></i><span>AWS</span></li>
+              <li><i class="fa-solid fa-rocket" aria-hidden="true"></i><span>Cloud Deployment</span></li>
+              <li><i class="devicon-vercel-original" aria-hidden="true"></i><span>Vercel</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3><i class="fa-solid fa-gears" aria-hidden="true"></i> DevOps Engineering</h3>
+            <ul class="tech-list">
+              <li><i class="devicon-docker-plain colored" aria-hidden="true"></i><span>Docker</span></li>
+              <li><i class="devicon-linux-plain" aria-hidden="true"></i><span>Linux</span></li>
+              <li><i class="fa-solid fa-arrows-spin" aria-hidden="true"></i><span>CI/CD</span></li>
+              <li><i class="devicon-git-plain colored" aria-hidden="true"></i><span>Git</span></li>
+              <li><i class="devicon-github-original" aria-hidden="true"></i><span>GitHub</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3><i class="fa-solid fa-terminal" aria-hidden="true"></i> Programming Languages</h3>
+            <ul class="tech-list">
+              <li><i class="devicon-python-plain colored" aria-hidden="true"></i><span>Python</span></li>
+              <li><i class="devicon-java-plain colored" aria-hidden="true"></i><span>Java</span></li>
+              <li><i class="devicon-javascript-plain colored" aria-hidden="true"></i><span>JavaScript</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="tools-line reveal"><strong>Everyday tools:</strong> VS Code &middot; Git &middot; GitHub &middot; Vercel</p>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>My Services</h2>
+          <p>What I can build and ship for your team or your project.</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></span>
+            <h3>Web Development</h3>
+            <p>Responsive, accessible websites built with HTML, CSS and JavaScript.</p>
+          </article>
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-brands fa-react" aria-hidden="true"></i></span>
+            <h3>MERN Stack Development</h3>
+            <p>Full stack apps with MongoDB, Express.js, React.js and Node.js.</p>
+          </article>
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-solid fa-server" aria-hidden="true"></i></span>
+            <h3>Backend Development</h3>
+            <p>REST APIs and server logic with Node.js, Express.js, Flask and Django.</p>
+          </article>
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-brands fa-python" aria-hidden="true"></i></span>
+            <h3>Python Development</h3>
+            <p>Scripts, web apps and data-driven tools written in clean Python.</p>
+          </article>
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-brands fa-aws" aria-hidden="true"></i></span>
+            <h3>AWS Cloud Deployment</h3>
+            <p>Deploying web applications to AWS EC2 and configuring Linux servers.</p>
+          </article>
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-brands fa-docker" aria-hidden="true"></i></span>
+            <h3>Docker Containerization</h3>
+            <p>Packaging applications into containers so they run the same everywhere.</p>
+          </article>
+          <article class="service-card glass reveal">
+            <span class="service-icon"><i class="fa-solid fa-infinity" aria-hidden="true"></i></span>
+            <h3>DevOps and CI/CD</h3>
+            <p>Git-based workflows and automated build and deploy pipelines.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>My Projects</h2>
+          <p>A selection of work across machine learning, data analysis, cloud and full stack development.</p>
+        </header>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card glass reveal">
+            <div class="project-thumb">
+              <img src="images/iris-flower.png" alt="Pink rose flower used as the Iris Flower Prediction System project thumbnail" width="800" height="500" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Iris Flower Prediction System</h3>
+              <p>A machine learning-based application that predicts iris flower species based on sepal and petal measurements.</p>
+              <ul class="badges"><li>Machine Learning</li><li>Python</li><li>Flask</li></ul>
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="https://github.com/punith1800/Flower_prediction.git" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Iris Flower Prediction System"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" data-placeholder="demo" aria-label="Live demo for Iris Flower Prediction System (link to be added)"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card glass reveal">
+            <div class="project-thumb">
+              <img src="images/data-analysis.png" alt="Dark data analysis dashboard interface showing revenue and orders data" width="800" height="500" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Data Analysis and Visualization</h3>
+              <p>A data analytics project focused on processing datasets, generating insights and presenting meaningful visualizations.</p>
+              <ul class="badges"><li>Python</li><li>Data Analysis</li><li>Visualization</li></ul>
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="https://github.com/punith1800/DATA" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Data Analysis and Visualization"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" data-placeholder="demo" aria-label="Live demo for Data Analysis and Visualization (link to be added)"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card glass reveal">
+            <div class="project-thumb">
+              <picture>
+                <source srcset="images/project3.webp" type="image/webp" />
+                <img src="images/project3.png" alt="Thumbnail for the AWS and Docker Deployment project" width="800" height="500" loading="lazy" />
+              </picture>
+            </div>
+            <div class="project-body">
+              <h3>AWS + Docker Deployment</h3>
+              <p>A cloud deployment project demonstrating containerization and deployment of web applications using Docker and AWS EC2.</p>
+              <ul class="badges"><li>AWS</li><li>EC2</li><li>Docker</li><li>Linux</li></ul>
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="#" data-placeholder="github" aria-label="GitHub repository for AWS and Docker Deployment (link to be added)"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" data-placeholder="demo" aria-label="Live demo for AWS and Docker Deployment (link to be added)"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card glass reveal">
+            <div class="project-thumb">
+              <img src="images/mindcare-ai.png" alt="MindCare AI landing page for a mental wellness journal and mood analysis app" width="800" height="500" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>MindCare AI</h3>
+              <p>An AI-powered emotional wellness application that helps users journal thoughts, track mood patterns, and receive simple chatbot-style guidance.</p>
+              <ul class="badges"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>MongoDB</li><li>Node.js</li><li>Python ML</li></ul>
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="#" data-placeholder="github" aria-label="GitHub repository for MindCare AI (link to be added)"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" data-placeholder="demo" aria-label="Live demo for MindCare AI (link to be added)"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card glass reveal">
+            <div class="project-thumb">
+              <img src="images/medicine-tracker.png" alt="Medicine tracker dashboard showing expiry dates and medication records" width="800" height="500" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Medicine Tracker</h3>
+              <p>A JavaScript and Node.js application to track medicines, monitor expiry dates, and help reduce waste with calendar-based review tools.</p>
+              <ul class="badges"><li>JavaScript</li><li>Node.js</li><li>Tracker App</li><li>Productivity</li></ul>
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="https://github.com/punith1800/medicne_tracker.git" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository for Medicine Tracker"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                <a class="btn btn-sm btn-primary" href="#" data-placeholder="demo" aria-label="Live demo for Medicine Tracker (link to be added)"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="note reveal">Links marked "coming soon" will open once the repository or demo URL is added in <code>index.html</code>.</p>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Experience &amp; Achievements</h2>
+          <p>How my learning and hands-on work have progressed.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <h3>DevOps Engineer Internship at BLU Net IT Services</h3>
+              <p class="muted">BLU Net IT Services &middot; 3 months</p>
+              <p>Worked on  web hosting using aws, docker containerization, EC2 instance, jenkins, vercel,  and kubernetis. Version control using git and github.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <h3>Technical Learning Experience</h3>
+              <p class="muted">07-11-2026</p>
+              <p>Studying Computer Science alongside self-directed learning in web development, backend frameworks and databases.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <h3>Hands-on Project Development</h3>
+              <p class="muted">07-11-2026</p>
+              <p>Built projects covering machine learning with Flask, data analysis and a MERN stack web application.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass">
+              <h3>AWS and Docker Learning</h3>
+              <p class="muted">07-11-2026</p>
+              <p>Learned to containerize applications with Docker and deploy them to AWS EC2 on Linux.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="proof">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Achievements &amp; Proof</h2>
+          <p>What I’ve learned, built, and continue improving through hands-on work.</p>
+        </header>
+
+        <div class="achievements-grid">
+          <article class="achievement-card reveal">
+            <span class="badge">Learning</span>
+            <strong>Full Stack Focus</strong>
+            <p>Working across frontend, backend and deployment to build products end-to-end.</p>
+          </article>
+          <article class="achievement-card reveal">
+            <span class="badge">Project</span>
+            <strong>5+ Built</strong>
+            <p>Practical projects spanning ML, analytics, Docker deployment and web apps.</p>
+          </article>
+          <article class="achievement-card reveal">
+            <span class="badge">Growth</span>
+            <strong>Open to Opportunities</strong>
+            <p>Seeking internship and entry-level roles where I can contribute and keep growing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2>Contact Me</h2>
+          <p>Hiring for a fresher role or have a project in mind? Send me a message.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                <div><strong>Email</strong><a href="mailto:punith65@gmail.com" id="contact-email">punith65@gmail.com</a></div>
+              </li>
+              <li>
+                <span class="contact-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></span>
+                <div><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/punith-v-a-51555b432/" target="_blank" rel="noopener noreferrer">linkedin.com/in/punith-v-a-51555b432</a></div>
+              </li>
+              <li>
+                <span class="contact-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></span>
+                <div><strong>GitHub</strong><a href="https://github.com/punith1800" target="_blank" rel="noopener noreferrer">github.com/punith1800</a></div>
+              </li>
+              <li>
+                <span class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                <div><strong>Location</strong><span>Bengaluru, Karnataka, India</span></div>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form glass reveal" id="contact-form" novalidate action="" method="post" > 
+            <!-- Honeypot field: real people leave this empty -->
+            <input type="text" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="name-error" />
+              <span class="error" id="name-error" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required maxlength="120" aria-describedby="email-error" />
+              <span class="error" id="email-error" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required minlength="3" maxlength="120" aria-describedby="subject-error" />
+              <span class="error" id="subject-error" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required minlength="10" maxlength="2000" aria-describedby="message-error"></textarea>
+              <span class="error" id="message-error" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> <span class="btn-label">Send Message</span>
+            </button>
+
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand"><span class="brand-mark">P</span><span class="brand-name">Punith V A</span></a>
+        <p>MERN Stack Developer | DevOps Engineer | Aspiring Full Stack Developer</p>
+      </div>
+
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <ul class="socials" aria-label="Social links">
+        <li><a class="social-link-github" href="https://github.com/punith1800" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+        <li><a class="social-link-linkedin" href="https://www.linkedin.com/in/punith-v-a-51555b432/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Punith V A. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
